@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+# Data are not shared: Coin Metrics terms and the RESSET licence
+data_raw/*
+!data_raw/resset/
+data_raw/resset/*
+!data_raw/resset/.gitkeep
+data_clean/*
+!data_clean/.gitkeep
